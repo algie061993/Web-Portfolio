@@ -166,6 +166,26 @@ a {
   transform: scaleX(1);
 }
 
+@media (max-width: 600px) {
+  .bgBrownBlur {
+    margin: 1em;
+    padding: 1em;
+    font-size: 1em;
+    align-items: center;
+  }
+  .profileSection {
+    padding: 0.5em;
+    max-width: 98vw;
+  }
+  .profileImage {
+    width: 100px;
+    height: 100px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
 /* Page transition animation */
 .page-fade {
   opacity: 0;
@@ -351,6 +371,7 @@ a {
   opacity: 0;
   transform: translateY(30px);
   animation: fadeInUp 1s ease-out 0.5s forwards;
+  margin: 0 auto;
 }
 
 .profileSection,
@@ -496,7 +517,7 @@ p {
   width: fit-content;
   min-height: 200px;
   max-width: 220px;
-  margin: 0 auto;
+
   transition: box-shadow 0.2s, transform 0.2s;
   will-change: transform;
   transform-origin: center;
