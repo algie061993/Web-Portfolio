@@ -90,6 +90,8 @@ function cards() {
 cards();
 
 // Dynamically create project cards
+// This function is called when the page loads to display the projects
+// It creates a list of project cards with titles, descriptions, images, GitHub links,
 
 function projectCards() {
   const projectsData = [
