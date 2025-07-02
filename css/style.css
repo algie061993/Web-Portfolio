@@ -171,8 +171,8 @@ a {
     margin: 1em;
     padding: 1em;
     font-size: 1em;
-    align-items: center;
   }
+
   .profileSection {
     padding: 0.5em;
     max-width: 98vw;
@@ -649,19 +649,17 @@ p {
 }
 @media (max-width: 600px) {
   .card-list {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
     gap: 1.5em;
-    max-width: 100%;
     padding: 0 1em;
   }
   .card {
     max-width: 100%;
-    width: 100%;
     min-height: 200px;
     flex: 1 1 220px;
-    margin: 0 auto;
     padding: 0.8em 0.6em;
     display: flex;
     flex-direction: column;
