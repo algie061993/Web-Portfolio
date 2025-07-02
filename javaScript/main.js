@@ -99,8 +99,7 @@ function projectCards() {
         "Effortlessly manage your freight operations with our refined Freight Management System. Whether youre handling shipments, tracking deliveries, fuel, or vehicle parts stock, our platform ensures efficiency and cost-effectiveness.",
       image: "/images/thumbnails/capstone-thumbnail.jpg",
       github: "https://github.com/yourusername/your-capstone-repo",
-      video:
-        "https://drive.google.com/file/d/1zv0HvXjcSbGtQQZffgxvAbos1Z-CcOhG/view?usp=drive_link",
+      video: "https://youtu.be/4mfk5RTE6zI",
     },
   ];
 
