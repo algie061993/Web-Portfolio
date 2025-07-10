@@ -111,7 +111,7 @@ function projectCards() {
     card.style.maxWidth = "250px";
     card.style.margin = "1.5em auto";
     card.innerHTML = `
-      ${image ? `<img class="card-img" src="${image}" alt="${title}">` : ""}
+    
       <strong>${title}</strong>
       <p>${description}</p>
       <p>
