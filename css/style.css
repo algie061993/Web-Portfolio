@@ -524,6 +524,14 @@ p {
   position: relative;
 }
 
+.card:hover,
+.card:focus-within {
+  box-shadow: 0 4px 16px #b67a4f44, 0 2px 8px #228b2244;
+  transform: scale(1.05);
+  background-color: rgb(245, 245, 220);
+  background-size: 100% 100%;
+}
+
 .card-img {
   width: 100%;
   max-width: 120px;
