@@ -64,6 +64,13 @@ function cards() {
       image:
         "/images/certificates/basic knowledge with the research trebds.jpg",
     },
+    {
+      title: "Role in Digital Transformation",
+      content:
+        "Explored the critical role of digital transformation in modern organizations, focusing on strategies for successful implementation.",
+      image:
+        "/images/certificates/BITZ 2023 Session 2 Understanding the Innovators Role in Digital Transformation.jpg",
+    },
   ];
 
   function createCard({ title, content, image }) {
